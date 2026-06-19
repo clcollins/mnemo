@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "mnemo": {
+      "command": "go",
+      "args": ["run", "./cmd/mnemo", "serve"],
+      "env": {
+        "MNEMO_DB_PATH": "/path/to/mnemo.db",
+        "MNEMO_OLLAMA_HOST": "https://ollama.cluster.collins.is",
+        "MNEMO_EMBED_MODEL": "nomic-embed-text",
+        "MNEMO_EMBED_DIM": "768"
+      }
+    }
+  }
+}
